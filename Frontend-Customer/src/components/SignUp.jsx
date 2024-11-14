@@ -1,12 +1,15 @@
 import React from 'react';
+import CloseIcon from '@mui/icons-material/Close';
 
-function SignUp() {
+function SignUp({isopen,onclose}) {
+    if(!isopen) return null;
   return (
-    <div className="flex items-center justify-center h-screen">
-    <form className="flex flex-col border-2 border-gray-400 rounded-lg p-4">
-
-        <div className="text-gray text-2xl m-4">Create Account</div>
-
+    <div className="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 flex h-screen">
+    <form className="flex flex-col border-2 border-gray-400 rounded-lg p-4 bg-white">
+        <div className='flex justify-between'>
+        <div className="text-gray text-2xl">Create Account</div>
+        <div><button onClick={onclose}><CloseIcon className='text-black'/></button></div>
+        </div>
         <div className=" flex flex-col md:flex-row">
             <div className="flex flex-col m-4">
                 <label for="first_name">First Name</label>

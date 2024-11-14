@@ -8,10 +8,13 @@ import RestaurantCard from './components/RestrauntCard.jsx';
 import Homepage from './components/Homepage.jsx';
 import { Routes, Route } from 'react-router-dom';
 import Cart from './components/Cart.jsx';
+import { useState } from 'react';
 
 
 
 function App() {
+  
+
   return (
     <>
       {/* <SignUp />
@@ -23,7 +26,7 @@ function App() {
         <Route path="/cart" element={<Cart />}/>
       </Routes>
       
-      {/* <Login /> */}
+      
     </>
   )
 }
