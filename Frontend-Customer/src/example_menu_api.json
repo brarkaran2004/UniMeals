@@ -1,0 +1,143 @@
+[
+    {
+      "category_name": "Breakfast",
+      "items": [
+        {
+          "item_name": "Pancakes",
+          "item_description": "Fluffy pancakes with maple syrup.",
+          "item_price": 5.5,
+          "item_image_url": "/images/pancakes.jpg"
+        },
+        {
+          "item_name": "Waffles",
+          "item_description": "Crispy waffles with whipped cream and berries.",
+          "item_price": 6.0,
+          "item_image_url": "/images/waffles.jpg"
+        },
+        {
+          "item_name": "Omelette",
+          "item_description": "Three-egg omelette with cheese and ham.",
+          "item_price": 5.0,
+          "item_image_url": "/images/omelette.jpg"
+        },
+        {
+          "item_name": "Avocado Toast",
+          "item_description": "Smashed avocado on whole-grain toast.",
+          "item_price": 4.0,
+          "item_image_url": "/images/avocado_toast.jpg"
+        },
+        {
+          "item_name": "French Toast",
+          "item_description": "Thick slices of french toast with powdered sugar.",
+          "item_price": 5.5,
+          "item_image_url": "/images/french_toast.jpg"
+        },
+        {
+          "item_name": "Bagel with Cream Cheese",
+          "item_description": "Toasted bagel with smooth cream cheese.",
+          "item_price": 3.0,
+          "item_image_url": "/images/bagel.jpg"
+        },
+        {
+          "item_name": "Breakfast Burrito",
+          "item_description": "Tortilla wrap with eggs, cheese, and bacon.",
+          "item_price": 6.5,
+          "item_image_url": "/images/breakfast_burrito.jpg"
+        },
+        {
+          "item_name": "Smoothie Bowl",
+          "item_description": "Mixed berry smoothie topped with granola.",
+          "item_price": 7.0,
+          "item_image_url": "/images/smoothie_bowl.jpg"
+        },
+        {
+          "item_name": "Granola Parfait",
+          "item_description": "Yogurt parfait with granola and fresh fruit.",
+          "item_price": 4.5,
+          "item_image_url": "/images/parfait.jpg"
+        },
+        {
+          "item_name": "Egg Benedict",
+          "item_description": "Poached eggs with hollandaise sauce on English muffin.",
+          "item_price": 8.0,
+          "item_image_url": "/images/egg_benedict.jpg"
+        },
+        {
+          "item_name": "Croissant",
+          "item_description": "Buttery and flaky croissant.",
+          "item_price": 2.5,
+          "item_image_url": "/images/croissant.jpg"
+        },
+        {
+          "item_name": "Hash Browns",
+          "item_description": "Crispy golden hash browns.",
+          "item_price": 2.0,
+          "item_image_url": "/images/hash_browns.jpg"
+        },
+        {
+          "item_name": "Breakfast Sandwich",
+          "item_description": "Egg, bacon, and cheese on a toasted roll.",
+          "item_price": 4.5,
+          "item_image_url": "/images/breakfast_sandwich.jpg"
+        },
+        {
+          "item_name": "Cereal",
+          "item_description": "Bowl of assorted cereals with milk.",
+          "item_price": 3.0,
+          "item_image_url": "/images/cereal.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Drinks",
+      "items": [
+        {
+          "item_name": "Espresso",
+          "item_description": "Strong and bold shot of espresso.",
+          "item_price": 2.5,
+          "item_image_url": "/images/espresso.jpg"
+        },
+        {
+          "item_name": "Iced Coffee",
+          "item_description": "Chilled coffee with ice.",
+          "item_price": 3.0,
+          "item_image_url": "/images/iced_coffee.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Desserts",
+      "items": [
+        {
+          "item_name": "Brownie",
+          "item_description": "Chocolate brownie with walnuts.",
+          "item_price": 3.5,
+          "item_image_url": "/images/brownie.jpg"
+        },
+        {
+          "item_name": "Cheesecake",
+          "item_description": "Creamy New York-style cheesecake.",
+          "item_price": 5.0,
+          "item_image_url": "/images/cheesecake.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Salads",
+      "items": [
+        {
+          "item_name": "Caesar Salad",
+          "item_description": "Crisp romaine lettuce with Caesar dressing.",
+          "item_price": 6.0,
+          "item_image_url": "/images/caesar_salad.jpg"
+        },
+        {
+          "item_name": "Greek Salad",
+          "item_description": "Mixed greens with feta, olives, and vinaigrette.",
+          "item_price": 6.5,
+          "item_image_url": "/images/greek_salad.jpg"
+        }
+      ]
+    }
+  ]
+  
