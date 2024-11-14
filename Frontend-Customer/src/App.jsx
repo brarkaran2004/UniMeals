@@ -6,6 +6,9 @@ import Navbar from './components/Navbar.jsx';
 import { Card } from '@mui/material';
 import RestaurantCard from './components/RestrauntCard.jsx';
 import Homepage from './components/Homepage.jsx';
+import { Routes, Route } from 'react-router-dom';
+import Cart from './components/Cart.jsx';
+
 
 
 function App() {
@@ -14,8 +17,11 @@ function App() {
       {/* <SignUp />
       <Menu /> */}
       <Navbar />
-
-      <Homepage />
+      <Routes>
+        <Route path="/" element={<Homepage />}/>
+        <Route path="/menu" element={<Menu />}/>
+        <Route path="/cart" element={<Cart />}/>
+      </Routes>
       
       {/* <Login /> */}
     </>

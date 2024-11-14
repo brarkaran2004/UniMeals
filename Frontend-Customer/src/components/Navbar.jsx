@@ -1,13 +1,14 @@
 import React,{useState} from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div className='flex justify-center items-center h-16 px-4 m-2'>
       <div className='px-4'>
         <h1 className='text-red-500 text-4xl'>
-         <button>Uni<span className='text-black'>Meals</span></button>
+         <Link to="/" >Uni<span className='text-black'>Meals</ span ></ Link>
         </h1>
       </div>
       

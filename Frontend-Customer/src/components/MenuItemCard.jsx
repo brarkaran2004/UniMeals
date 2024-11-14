@@ -1,7 +1,11 @@
 import React from 'react';
-import AddButton from './AddButton';
+//import cartState from '../state/atoms/cart_state';
 
 function MenuItemCard({item}) {
+
+  //Use this to add items when clicking the add button
+  //const [cart, setCart] = useRecoilState(cartState);
+
   return (
     <div className="
         flex
@@ -21,7 +25,9 @@ function MenuItemCard({item}) {
             <p className="text-gray-500">{item.item_description}</p>
         </div>
 
-        <AddButton />
+        <div className='ml-auto p-10'>
+          <button className='bg-red-600 text-white text-lg'>Add</button>
+        </div>
     </div>
   )
 }

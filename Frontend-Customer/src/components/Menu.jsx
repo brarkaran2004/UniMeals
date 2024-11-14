@@ -152,7 +152,6 @@ function Menu({restaurant_info}) {
               ]
             }
           ]);
-        console.log(menu)
     }, []);
 
     const handleCategoryClick = (category_name, e) => {
