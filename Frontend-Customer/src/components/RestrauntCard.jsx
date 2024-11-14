@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function RestaurantCard({ name, address, timeFromUser, promotion }) {
+function RestaurantCard({ id, name, address, timeFromUser, promotion }) {
   return (
-    <Link className="flex flex-col w-72 max-w-xs rounded-lg overflow-hidden shadow-lg bg-white p-6 m-4 hover:shadow-2xl hover:bg-gray-50 transition-all duration-300" to="/menu">
+    <Link className="flex flex-col w-72 max-w-xs rounded-lg overflow-hidden shadow-lg bg-white p-6 m-4 hover:shadow-2xl hover:bg-gray-50 transition-all duration-300" to={`/menu/${id}`}>
       
       {/* Restaurant Name */}
       <h2 className="text-2xl font-semibold text-gray-800 mb-2">{name || 'Restaurant Name'}</h2>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 import MenuItemCard from './MenuItemCard';
+import {useParams} from 'react-router-dom';
 
 function Menu({restaurant_info}) {
 
@@ -8,6 +9,7 @@ function Menu({restaurant_info}) {
     const [menu, setMenu] = useState([]);
     const [activeCategory, setActiveCategory] = useState("");
     const categoryRefs = useRef({});
+    const restaurantid = useParams();
 
     useEffect(() => {
         setMenu([
@@ -165,7 +167,7 @@ function Menu({restaurant_info}) {
   return (
     <div className="sm:w-8/12 min-h-screen sm:mx-auto flex flex-col">
        <div>
-        <p>Top part where the restaurant information goes</p>
+        <p>Restaurant ID : {restaurantid.restaurantid}</p>
        </div>
 
        <div className="w-full h-full flex flex-grow">
