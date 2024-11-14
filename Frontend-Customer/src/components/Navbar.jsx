@@ -2,10 +2,6 @@ import React,{useState} from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-
-
-
-
 function Navbar() {
   return (
     <div className='flex justify-center items-center h-16 px-4 m-2'>

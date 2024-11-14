@@ -2,21 +2,32 @@ import React from 'react';
 
 function RestaurantCard({ name, address, timeFromUser, promotion }) {
   return (
-    <div className="w-64 rounded-lg overflow-hidden shadow-lg bg-white p-4 m-4 hover:shadow-md hover:bg-gray-100">
+    <div className="flex flex-col w-72 max-w-xs rounded-lg overflow-hidden shadow-lg bg-white p-6 m-4 hover:shadow-2xl hover:bg-gray-50 transition-all duration-300">
       
-      <h2 className="text-xl font-semibold text-gray-800">{name || 'Restaurant Name'}</h2>
- 
-      <p className="text-gray-600">{address || '123 Main St, City'}</p>
+      {/* Restaurant Name */}
+      <h2 className="text-2xl font-semibold text-gray-800 mb-2">{name || 'Restaurant Name'}</h2>
 
-      <p className="text-gray-500 text-sm my-2">
+      {/* Restaurant Address */}
+      <p className="text-gray-600 text-sm mb-4">{address || '123 Main St, City'}</p>
+
+      {/* Estimated Time */}
+      <p className="text-gray-500 text-sm mb-4">
         {timeFromUser ? `Approx. ${timeFromUser} mins away` : 'Distance not available'}
       </p>
 
+      {/* Promotion */}
       {promotion && (
-        <div className="mt-2 bg-red-100 text-red-600 text-sm font-medium rounded p-2">
+        <div className="mt-4 p-3 m-1 bg-green-100 text-green-600 text-sm font-medium rounded-md shadow-sm border-l-4 border-green-500">
           {promotion}
         </div>
       )}
+
+      {/* Button or CTA (optional) */}
+      <div className="mt-auto">
+        <button className="w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 transition-colors duration-300">
+          View Menu
+        </button>
+      </div>
     </div>
   );
 }
