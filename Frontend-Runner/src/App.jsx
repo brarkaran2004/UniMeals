@@ -1,13 +1,14 @@
 import Navbar from './components/Navbar'
 import OrderCard from './components/OrderCard'
+import Homepage from './components/Homepage'
 
 
 function App() {
 
   return (
-    <>
-      <OrderCard />
-    </>
+    <div className="bg-black">
+      <Homepage />
+    </div>
   )
 }
 

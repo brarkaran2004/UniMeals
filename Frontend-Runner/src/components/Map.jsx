@@ -12,6 +12,7 @@ function Map() {
           center={UofACoordinates}
           zoom={15}
           scrollWheelZoom={true}
+          zoomControl={false}
           className="w-full h-full rounded-lg shadow-lg"
         >
           <TileLayer

@@ -8,10 +8,10 @@ function Navbar() {
     const trigger = ()=>{
         setopen(!open)
     }
-    if (open == false) return <button onClick={trigger} className='p-4'><MenuIcon /></button>
+    if (open == false) return( <div className="flex z-20 fixed w-full max-w-2xl"><button onClick={trigger} className='p-4 z-20'><MenuIcon /></button></div> )
   return (
    
-    <div className='flex inset-0 flex-col p-4 w-2/12 min-h-screen bg-black'>
+    <div className=' fixed flex z-10 flex-col p-4 w-6/12 sm:w-2/12 min-h-screen bg-black'>
         <div className=''>
         <button onClick={trigger}><CloseIcon  className='text-white'/></button>
         </div>
