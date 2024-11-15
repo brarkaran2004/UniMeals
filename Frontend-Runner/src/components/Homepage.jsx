@@ -21,10 +21,16 @@ function Homepage() {
         <OrderCard />
       </div>}
 
+
     <div className="flex flex-col">
+
+      <button className="fixed bg-red-600 z-20 bottom-20 left-1/2 -translate-x-1/2 p-6 rounded-full border-2 border-white text-white text-lg">GO</button>
+
+      
       {/* Fixed button at the bottom */}
         <div className=" w-full max-w-2xl fixed bottom-0 left-1/2 -translate-x-1/2 z-10 bg-black hover:bg-gray-900 text-white font-bold p-4 rounded-t flex flex-row justify-end"
         >
+        <h2 className="mx-auto">You are offline</h2>
         <button className="text-xl" onClick={() => setIsOpen(true)}><MenuIcon className=" text-lg text-white" /></button>
         </div>
 

@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import OrderCard from './components/OrderCard'
 import Homepage from './components/Homepage'
+import Wallet from './components/Wallet'
 
 
 function App() {
